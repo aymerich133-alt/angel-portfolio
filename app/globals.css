@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+/* RESET + BASE LOOK */
+@layer base {
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+
+html, body {
+  height: 100%;
+  background: #F3EFE3;
+  color: #0B132B;
+}
+
+/* Center container */
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(6px);
+    opacity: 1;
+  }
+}
+
+@keyframes drift {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.fish-lane {
+  animation: drift 60s linear infinite;
+}
+
+.fish-lane:hover {
+  animation-play-state: paused;
+}
+
+.fish-fade {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+}
+
+@keyframes texture-drift {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-10%);
+  }
+}
+
+.hero-title {
+  font-family: var(--font-title) !important;
+}
+
+.secondary-title {
+  font-family: var(--font-body) !important;
+}
+
+.text-outline-cream {
+  text-shadow:
+    -2px -2px 0 #F3EFE3,
+     2px -2px 0 #F3EFE3,
+    -2px  2px 0 #F3EFE3,
+     2px  2px 0 #F3EFE3;
+}
+
+/* ===== Custom Scrollbar ===== */
+::-webkit-scrollbar {
+  height: 10px;   /* horizontal bar height */
+  width: 10px;    /* vertical bar width */
+}
+
+::-webkit-scrollbar-track {
+  background: #F3EFE3; /* cream track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E4E8C; /* your blue */
+  border-radius: 999px;
+  border: 2px solid #F3EFE3; /* cream padding edge */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #163A66; /* darker blue on hover */
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1E4E8C #F3EFE3;
+}
+
