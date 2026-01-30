@@ -75,7 +75,7 @@ const projects = [
 
   {
     title: "3D Lighting Studies",
-    slug: "LightPractice",
+    slug: "lightpractice",
     description:
       "A series of lighting studies in Blender exploring character, environment, and still life.",
     longDescription: [
@@ -92,7 +92,7 @@ const projects = [
   // Motion Design
   {
     title: "Motion Self Portrait",
-    slug: "BrainSplit",
+    slug: "brainsplit",
     description:
       "Personal motion piece exploring identity, influences, and creative personality.",
     longDescription: [
@@ -104,7 +104,7 @@ const projects = [
 
   {
     title: "Shoot Lyric Video",
-    slug: "shootLyrics",
+    slug: "shootlyrics",
     description:
       "Playful motion lyric video with music-driven typography, transitions, and textured visuals.",
     longDescription: [
@@ -118,7 +118,7 @@ const projects = [
 
   {
     title: "Good Stuff Lyric Video",
-    slug: "GoodStuff",
+    slug: "goodstuff",
     description:
       "High-energy black-and-white lyric video exploring kinetic typography, distortion, and analog-inspired motion.",
     longDescription: [
@@ -132,7 +132,7 @@ const projects = [
 
   {
     title: "Kobe Motion Piece",
-    slug: "Kobe",
+    slug: "kobe",
     description:
       "Cinematic parallax motion piece using depth, blur, and color accents to simulate speed and impact.",
     longDescription: [
@@ -147,7 +147,7 @@ const projects = [
   // Graphic Design
   {
     title: "Lisa Poster",
-    slug: "lisaPoster",
+    slug: "lisaposter",
     description:
       "Red-dominant poster design combining custom typography, illustration, and mixed-media graphic elements.",
     longDescription: [
@@ -161,7 +161,7 @@ const projects = [
 
   {
     title: "Chaeyoung Poster",
-    slug: "ChaeyoungPoster",
+    slug: "chaeyoungposter",
     description:
       "Blue-and-white poster design using textured cutouts and dynamic composition inspired by a TWICE album release.",
     longDescription: [
@@ -175,7 +175,7 @@ const projects = [
 
   {
     title: "Ani Purple Poster",
-    slug: "AniPurple",
+    slug: "anipurple",
     description:
       "Purple-toned photo poster exploring glass effects, blending modes, and glowing visual accents.",
     longDescription: [
@@ -189,7 +189,7 @@ const projects = [
 
   {
     title: "Winter Poster",
-    slug: "WinterPoster",
+    slug: "winterposter",
     description:
       "Pink-and-purple poster design combining cutout textures, branding elements, and layered graphic composition.",
     longDescription: [
@@ -204,7 +204,7 @@ const projects = [
   // Video Editing & Campaigns
   {
     title: "Sweet Slash",
-    slug: "SweetSlash",
+    slug: "sweetslash",
     description:
       "Collaborative stop motion short combining physical animation, 2D effects, and post-production storytelling.",
     longDescription: [
@@ -218,7 +218,7 @@ const projects = [
 
   {
     title: "Masks Motion Study",
-    slug: "Masks",
+    slug: "masks",
     description:
       "Urban motion study using tracking and sound-driven reveals to transform real-world footage.",
     longDescription: [
@@ -232,7 +232,7 @@ const projects = [
 
   {
     title: "La Carga del Año 2026",
-    slug: "LCDA2026",
+    slug: "lcda2026",
     description:
       "Branded motion graphics campaign for internal training and public-facing social media promotion.",
     longDescription: [
@@ -246,7 +246,7 @@ const projects = [
 
   {
     title: "Christams Reel",
-    slug: "RatChris",
+    slug: "ratchris",
     description:
       "Playful holiday social edit combining choreography, rotoscoping, and trend-based motion styling.",
     longDescription: [

@@ -112,24 +112,48 @@ useEffect(() => {
     { title: string; slug: string; description: string }[]
   > = {
     "3d": [
-      { title: "Floating Island", slug: "floating-island", description: "Stylized 3D environment" },
-      { title: "Creature Study", slug: "creature-study", description: "Organic modeling practice" },
-      { title: "Floating Island", slug: "floating-island", description: "Stylized 3D environment" },
-      { title: "Creature Study", slug: "creature-study", description: "Organic modeling practice" },
+      { title: "Porsche Teaser", slug: "porsche", 
+        description: "Lighting, shader development, and cinematic teaser shots created in Blender" },
+      { title: "Tropical Jungle Environment", slug: "jungle", 
+        description: "Stage modeling for animated short currently in production" },
+      { title: "Blender Donut", slug: "donut", 
+        description: "Modeling, lighting, animating" },
+      { title: "3D Lighting Studies", slug: "lightpractice", 
+        description: "Various light studies in blender" },
     ],
     motion: [
-      { title: "Loop Study", slug: "loop-study", description: "Seamless motion loop" },
-      { title: "Typography Motion", slug: "typography-motion", description: "Animated type" },
+      { title: "Motion Self portrait", slug: "brainsplit", 
+        description: "Get to know me in motion" },
+      { title: "Shoot lyric video", slug: "shootlyrics", 
+        description: "Chaeyoung Shoot lyrics video" },
+      { title: "Good Stuff Lyric Video", slug: "goodstuff", 
+        description: "motion graphic of Karina Good stuff" },
+      { title: "Kobe Motion Piece", slug: "kobe", 
+        description: "Parallax effect practice with attitude" },
     ],
     graphic: [
-      { title: "Poster Series", slug: "poster-series", description: "Print-style graphics" },
-      { title: "Visual Identity", slug: "visual-identity", description: "Brand exploration" },
+      { title: "Lisa Poster", slug: "lisaposter", 
+        description: "Print-style graphics" },
+      { title: "Chaeyoung Poster", slug: "chaeyoungposter", 
+        description: "Photoshop practice on blending modes and color" },
+      { title: "Ani Purple Poster", slug: "anipurple", 
+        description: "Photo retouching and editing" },
+      { title: "Winter Poster", slug: "winterposter", 
+        description: "Photoshop practice on blending modes and color" },
+      
     ],
     video: [
-      { title: "Short Film Edit", slug: "short-film-edit", description: "Narrative pacing" },
-      { title: "Showreel", slug: "showreel", description: "Compilation edit" },
+      { title: "Sweet Slash", slug: "sweetslash", 
+        description: "Stop motion short film" },
+      { title: "Masks Motion Study", slug: "masks", 
+        description: "Masking artsy practice" },
+      { title: "La Carga del Año 2026", slug: "lcda2026", 
+        description: "Motiongraphics, audio and video editing for bp" },
+      { title: "Christams Reel", slug: "ratchris", 
+        description: "Feeling the christmas spirit" },
     ],
   };
+
 
   return (
     <main className="min-h-screen">
