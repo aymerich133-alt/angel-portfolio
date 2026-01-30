@@ -720,7 +720,7 @@ useEffect(() => {
               {[
                 {
                   href: "https://instagram.com/angelitros.jpg",
-                  src: "/images/contact/instaIcon.png",
+                  src: "/images/contact/instaicon.png",
                   alt: "Instagram",
                   tilt: "-rotate-6",
                 },
