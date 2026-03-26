@@ -257,6 +257,45 @@ const projects = [
       "After Effects and Premiere Pro were used for editing, timing, and rotoscoping to match the rhythm and visual tone of the original trend."
     ],
   },
+  // tech tools
+  {
+  title: "Car Rig Tool",
+  slug: "carrig",
+  description:
+    "Maya Python tool with a custom UI for automating vehicle rigging workflows.",
+  longDescription: [
+    "This project is a Maya Python tool designed to automate the process of rigging vehicles through a custom user interface. Instead of manually setting up controls, constraints, and hierarchies, the tool generates a complete car rig with a single action, significantly reducing setup time.",
+
+    "The system handles steering, and basic suspension logic, all exposed through a UI. Built using Maya cmds.",
+
+    ],
+  },
+  {
+  title: "Procedural Bridge Generator",
+  slug: "bridge",
+  description:
+    "Houdini procedural system for generating parametric bridge structures with adjustable controls.",
+  longDescription: [
+    "This project is a procedural bridge generator built in Houdini, designed to create parametric bridge structures that can be adjusted in real time through exposed controls.",
+
+    "The system is constructed using a modular node-based workflow, where parameters such as bridge length, segment count, and support placement dynamically affect the resulting geometry. This allows for rapid iteration and the ability to generate multiple variations without rebuilding the structure manually.",
+
+    "The goal of this project is to explore scalable procedural modeling workflows for environment creation. By abstracting the structure into controllable parameters, the system enables flexible design exploration and efficient asset generation."
+    ],
+  },
+  {
+  title: "Procedural Jungle Scatter",
+  slug: "jungletool",
+  description:
+    "Geometry Nodes system for scattering vegetation across complex surfaces with controllable variation, developed for the production of an animated short produced by me.",
+  longDescription: [
+    "This project is a procedural vegetation scattering system built using Blender’s Geometry Nodes, designed to distribute foliage across surfaces while maintaining artistic control over density and variation.",
+
+    "The system adapts to both flat and deformed geometry, allowing it to work on terrains such as slopes and uneven surfaces. Parameters control aspects like instance scale, randomness, and distribution, enabling quick iteration on different environmental setups.",
+
+    "The goal of this tool is to create an efficient workflow for populating environments with natural detail. It demonstrates how procedural systems can balance automation and control, making scene building faster and more flexible."
+    ],
+  }
 ];
 
 

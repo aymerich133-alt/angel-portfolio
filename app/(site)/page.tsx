@@ -100,6 +100,7 @@ useEffect(() => {
      =============================== */
   const categories = [
     { key: "3d", label: "3D Work", href: "/work/3d#portfolio", img: "/images/fish/Fish_03.png",},
+    {key: "tech", label: "Technical Tools", href: "/work/tech#portfolio", img: "/images/fish/Fish_01.png"},
     { key: "motion", label: "Motion Design", href: "/work/motion#portfolio", img: "/images/fish/Fish_02.png", },
     { key: "graphic", label: "Graphic Design", href: "/work/graphic#portfolio", img: "/images/fish/Fish_01.png", },
     { key: "video", label: "Video Editing", href: "/work/video#portfolio", img: "/images/fish/Fish_02.png", },

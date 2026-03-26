@@ -99,6 +99,7 @@ useEffect(() => {
      =============================== */
   const categories = [
     { key: "3d", label: "3D Work", href: "/work/3d#portfolio", img: "/images/fish/Fish_03.png",},
+    {key: "tech", label: "Technical Tools", href: "/work/tech#portfolio", img: "/images/fish/Fish_01.png"},
     { key: "motion", label: "Motion Design", href: "/work/motion#portfolio", img: "/images/fish/Fish_02.png", },
     { key: "graphic", label: "Graphic Design", href: "/work/graphic#portfolio", img: "/images/fish/Fish_01.png", },
     { key: "video", label: "Video Editing", href: "/work/video#portfolio", img: "/images/fish/Fish_02.png", },
@@ -120,6 +121,24 @@ useEffect(() => {
         description: "Modeling, lighting, animating" },
       { title: "3D Lighting Studies", slug: "lightpractice", 
         description: "Various light studies in blender" },
+    ],
+    tech: [
+      {
+        title: "Car Rig Tool",
+        slug: "carrig",
+        description: "Maya Python tool with UI for automating vehicle rigging workflows",
+      },
+      {
+        title: "Procedural Bridge Generator",
+        slug: "bridge",
+        description: "Houdini procedural system for generating parametric bridge structures",
+      },
+      {
+        title: "Procedural Jungle Scatter",
+        slug: "jungletool",
+        description: "Geometry Nodes system for scattering vegetation across complex surfaces",
+      },
+      
     ],
     motion: [
       { title: "Motion Self portrait", slug: "brainsplit", 
