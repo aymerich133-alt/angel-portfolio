@@ -177,26 +177,25 @@ useEffect(() => {
     <main className="min-h-screen">
       {/* ================= HERO ================= */}
       <section
-        id="hero"
+      id="hero"
+      className="
+        relative
+        min-h-screen
+        flex
+        flex-col
+        justify-start
+        items-center
+        text-center
+        px-6
+        pt-[25vh]
+        overflow-hidden
+        bg-[#1E4E8C]
+        text-[#F3EFE3]
+      "
+    >
+      {/* TEXTURE LAYER */}
+      <div
         className="
-          relative
-          min-h-screen
-          flex
-          flex-col
-          justify-start
-          items-center
-          text-center
-          px-6
-          pt-[45vh]
-          overflow-hidden
-          bg-[#1E4E8C]
-          text-[#F3EFE3]
-        "
-      >
-
-        {/* TEXTURE LAYER */}
-        <div
-          className="
           absolute
           inset-[-20%]
           bg-[url('/images/hero/Texture3.jpg')]
@@ -207,57 +206,87 @@ useEffect(() => {
           pointer-events-none
           animate-[texture-drift_60s_linear_infinite]
         "
-        />
+      />
 
-        {/* SOFT DARK OVERLAY (keeps contrast readable) */}
-        <div
+      {/* SOFT DARK OVERLAY */}
+      <div
+        className="
+          absolute
+          inset-0
+          bg-[#1E4E8C]/80
+          pointer-events-none
+        "
+      />
+
+      {/* CONTENT */}
+      <div className="relative z-10 flex flex-col items-center w-full">
+        <h1
           className="
-            absolute
-            inset-0
-            bg-[#1E4E8C]/80
-            pointer-events-none
+            hero-title
+            leading-[0.9]
+            tracking-wide
+            mb-8
           "
-        />
+          style={{ fontSize: "clamp(6rem, 14vw, 18rem)" }}
+        >
+          ANGEL AYMERICH
+        </h1>
 
-        {/* CONTENT */}
-        <div className="relative z-10 flex flex-col items-center">
-          <h1
-            className="
-              
-              hero-title
-              leading-[0.9]
-              tracking-wide
-              mb-10
-            "
-            style={{ fontSize: "clamp(11rem, 18vw, 25rem)" }}
-          >
-            ANGEL AYMERICH
-          </h1>
+        <p
+          className="
+            secondary-title
+            text-xl
+            md:text-2xl
+            text-[#F3EFE3]/80
+            mb-3
+            font-light
+            tracking-wide
+          "
+        >
+          Technical Artist • Motion Designer • VFX Artist
+        </p>
 
+        <p
+          className="
+            text-base
+            md:text-lg
+            max-w-2xl
+            text-[#F3EFE3]/60
+            mb-10
+          "
+        >
+          Creating procedural tools, motion graphics, and visual effects.
+        </p>
 
-
-          <p
-            className="
-              secondary-title
-              text-xl
-              md:text-2xl
-              max-w-3xl
-              text-[#F3EFE3]/80
-              mb-10
-            "
-          >
-            Blending design, code, and vibes into interactive stories
-          </p>
-
-          {/* SCROLL HINT */}
-          <div className="flex flex-col items-center gap-2 text-[#F3EFE3]/60">
-            <span className="text-sm tracking-wide">Scroll</span>
-            <span className="text-lg animate-[float_2.5s_ease-in-out_infinite]">
-              ↓
-            </span>
+        {/* DEMO REEL */}
+        <div className="w-full max-w-4xl mb-10 px-4">
+          <div className="overflow-hidden rounded-2xl shadow-2xl border border-[#F3EFE3]/10">
+            <video
+              className="w-full"
+              controls
+              preload="metadata"
+              poster="/images/demo-reel-poster.png"
+            >
+              <source
+                src="/videos/general-demo-reel.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
-      </section>
+
+        {/* SCROLL HINT */}
+        <div className="flex flex-col items-center gap-2 text-[#F3EFE3]/60 pb-10">
+          <span className="text-sm tracking-wide">
+            Scroll
+          </span>
+          <span className="text-lg animate-[float_2.5s_ease-in-out_infinite]">
+            ↓
+          </span>
+        </div>
+      </div>
+    </section>
 
       {/* ================= WORK SELECTION ================= */}
       <section
